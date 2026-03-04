@@ -42,7 +42,7 @@ const STEPS = [
 export function HowItWorksSection() {
     return (
         <section id="how-it-works" className="py-24 bg-neutral-50 relative overflow-hidden">
-            <div className="absolute bottom-0 left-0 w-[400px] h-[300px] rounded-full bg-emerald-50/80 blur-[100px] pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-100 h-75 rounded-full bg-emerald-50/80 blur-[100px] pointer-events-none" />
 
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -59,7 +59,7 @@ export function HowItWorksSection() {
                 </div>
 
                 <div className="relative space-y-8">
-                    <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px -translate-x-1/2 bg-gradient-to-b from-emerald-200 via-blue-200 to-yellow-200" />
+                    <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px -translate-x-1/2 bg-linear-to-b from-emerald-200 via-blue-200 to-yellow-200" />
 
                     {STEPS.map((step, i) => {
                         const isRight = step.align === "right";

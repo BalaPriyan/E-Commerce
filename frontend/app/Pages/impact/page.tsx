@@ -36,8 +36,8 @@ export default function ImpactPage() {
             <Navigation />
 
             <section className="relative pt-40 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
-                <div className="absolute top-0 left-0 w-[480px] h-[480px] rounded-full bg-emerald-100/50 blur-[120px] -z-10 animate-float-slow pointer-events-none" />
-                <div className="absolute top-20 right-0 w-[360px] h-[360px] rounded-full bg-yellow-100/40 blur-[100px] -z-10 animate-float-medium pointer-events-none" />
+                <div className="absolute top-0 left-0 w-120 h-120 rounded-full bg-emerald-100/50 blur-[120px] -z-10 animate-float-slow pointer-events-none" />
+                <div className="absolute top-20 right-0 w-90 h-90 rounded-full bg-yellow-100/40 blur-[100px] -z-10 animate-float-medium pointer-events-none" />
                 <div className="max-w-7xl mx-auto">
                     <div className="max-w-3xl">
                         <div className="inline-flex items-center gap-2 glass border border-emerald-200/50 text-emerald-800 px-4 py-2 rounded-full text-sm font-bold mb-6 shadow-sm">

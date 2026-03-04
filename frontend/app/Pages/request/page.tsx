@@ -42,8 +42,8 @@ export default function RequestPage() {
             <Navigation />
 
             <section className="relative pt-40 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-                <div className="absolute top-0 right-0 w-[480px] h-[480px] rounded-full bg-emerald-100/50 blur-[120px] -z-10 animate-float-slow pointer-events-none" />
-                <div className="absolute bottom-0 -left-20 w-[360px] h-[360px] rounded-full bg-blue-100/40 blur-[100px] -z-10 animate-float-medium pointer-events-none" />
+                <div className="absolute top-0 right-0 w-120 h-120 rounded-full bg-emerald-100/50 blur-[120px] -z-10 animate-float-slow pointer-events-none" />
+                <div className="absolute bottom-0 -left-20 w-90 h-90 rounded-full bg-blue-100/40 blur-[100px] -z-10 animate-float-medium pointer-events-none" />
 
                 <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 

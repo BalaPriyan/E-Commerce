@@ -14,8 +14,8 @@ const QUICK_STATS = [
 export function CtaSection() {
     return (
         <section className="py-24 bg-white px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-[500px] h-[400px] rounded-full bg-emerald-100/60 blur-[140px] pointer-events-none -z-10" />
-            <div className="absolute bottom-0 right-0 w-[400px] h-[300px] rounded-full bg-yellow-100/50 blur-[120px] pointer-events-none -z-10" />
+            <div className="absolute top-0 left-0 w-125 h-100 rounded-full bg-emerald-100/60 blur-[140px] pointer-events-none -z-10" />
+            <div className="absolute bottom-0 right-0 w-100 h-75 rounded-full bg-yellow-100/50 blur-[120px] pointer-events-none -z-10" />
 
             <div className="max-w-7xl mx-auto">
 

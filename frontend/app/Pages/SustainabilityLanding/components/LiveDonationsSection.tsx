@@ -15,14 +15,14 @@ const DONATIONS = [
 function DonationCard({ data, featured = false }: { data: typeof DONATIONS[0], featured?: boolean }) {
     return (
         <div className={`relative rounded-[2rem] overflow-hidden group shadow-md hover:shadow-xl transition-all duration-500 hover:-translate-y-1 ${featured ? "row-span-2" : "row-span-1"}`}>
-            <div className={`relative w-full h-full min-h-[200px] ${featured ? "min-h-[420px]" : "min-h-[200px]"}`}>
+            <div className={`relative w-full h-full min-h-50 ${featured ? "min-h-105" : "min-h-50"}`}>
                 <Image
                     src={data.imageSrc}
                     alt={data.foodName}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/80 via-neutral-900/10 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-neutral-900/80 via-neutral-900/10 to-transparent" />
 
                 <div className={`absolute top-4 left-4 ${data.color} px-3 py-1 rounded-full text-xs font-extrabold text-neutral-900`}>
                     {data.tag}
@@ -51,7 +51,7 @@ function DonationCard({ data, featured = false }: { data: typeof DONATIONS[0], f
 export function LiveDonationsSection() {
     return (
         <section id="map" className="py-24 bg-neutral-50 relative overflow-hidden">
-            <div className="absolute bottom-0 right-0 w-[400px] h-[300px] rounded-full bg-emerald-50/80 blur-[100px] pointer-events-none" />
+            <div className="absolute bottom-0 right-0 w-100 h-75 rounded-full bg-emerald-50/80 blur-[100px] pointer-events-none" />
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 

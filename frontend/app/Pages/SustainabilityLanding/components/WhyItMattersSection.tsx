@@ -38,8 +38,8 @@ export function WhyItMattersSection() {
     return (
         <section className="py-24 bg-neutral-950 text-white relative overflow-hidden">
             {/* Ambient glows on dark bg */}
-            <div className="absolute top-0 left-0 w-[500px] h-[400px] rounded-full bg-emerald-500/10 blur-[160px] pointer-events-none" />
-            <div className="absolute bottom-0 right-0 w-[400px] h-[300px] rounded-full bg-yellow-500/8 blur-[140px] pointer-events-none" />
+            <div className="absolute top-0 left-0 w-125 h-100 rounded-full bg-emerald-500/10 blur-[160px] pointer-events-none" />
+            <div className="absolute bottom-0 right-0 w-100 h-75 rounded-full bg-yellow-500/8 blur-[140px] pointer-events-none" />
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-14">

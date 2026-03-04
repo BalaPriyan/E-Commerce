@@ -21,7 +21,7 @@ const BARS = [
 export function ImpactSection() {
     return (
         <section id="impact" className="py-24 bg-white relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-[500px] h-[400px] rounded-full bg-yellow-50/80 blur-[120px] pointer-events-none" />
+            <div className="absolute top-0 right-0 w-125 h-100 rounded-full bg-yellow-50/80 blur-[120px] pointer-events-none" />
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 

@@ -82,7 +82,7 @@ export default function TermsPage() {
             <Navigation />
 
             <section className="relative pt-40 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
-                <div className="absolute top-0 right-0 w-[480px] h-[480px] rounded-full bg-blue-100/40 blur-[120px] -z-10 pointer-events-none animate-float-slow" />
+                <div className="absolute top-0 right-0 w-120 h-120 rounded-full bg-blue-100/40 blur-[120px] -z-10 pointer-events-none animate-float-slow" />
                 <div className="max-w-3xl mx-auto">
                     <div className="inline-flex items-center gap-2 glass border border-blue-200/50 text-blue-800 px-4 py-2 rounded-full text-sm font-bold mb-6 shadow-sm">
                         <FileText className="w-4 h-4" /> Terms of Service

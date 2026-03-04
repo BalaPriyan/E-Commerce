@@ -6,7 +6,7 @@ import { Building2, Baby, PersonStanding, HeartHandshake, HandHelping, Users } f
 export function WhoWeServeSection() {
     return (
         <section id="who-we-serve" className="py-24 bg-white relative overflow-hidden">
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-emerald-50 blur-[120px] -z-10 pointer-events-none" />
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-200 h-100 rounded-full bg-emerald-50 blur-[120px] -z-10 pointer-events-none" />
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-14">

@@ -23,7 +23,7 @@ export default function MapPage() {
             <Navigation />
 
             <section className="relative pt-40 pb-6 px-4 sm:px-6 lg:px-8 overflow-hidden">
-                <div className="absolute top-0 left-0 w-[480px] h-[480px] rounded-full bg-emerald-100/50 blur-[120px] -z-10 animate-float-slow pointer-events-none" />
+                <div className="absolute top-0 left-0 w-120 h-120 rounded-full bg-emerald-100/50 blur-[120px] -z-10 animate-float-slow pointer-events-none" />
                 <div className="max-w-7xl mx-auto">
                     <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
                         <div>
@@ -49,7 +49,7 @@ export default function MapPage() {
             <section className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto pb-20">
                 <div className="flex flex-col lg:flex-row gap-6">
 
-                    <div className="flex-1 relative bg-emerald-50 rounded-[2.5rem] overflow-hidden border border-emerald-100 shadow-sm min-h-[500px]">
+                    <div className="flex-1 relative bg-emerald-50 rounded-[2.5rem] overflow-hidden border border-emerald-100 shadow-sm min-h-125">
                         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "linear-gradient(to right, #6b7280 1px, transparent 1px), linear-gradient(to bottom, #6b7280 1px, transparent 1px)", backgroundSize: "60px 60px" }} />
                         <div className="absolute inset-0">
                             <div className="absolute top-[40%] left-0 right-0 h-0.5 bg-white opacity-60" />
@@ -65,7 +65,7 @@ export default function MapPage() {
                                 <div className={`w-10 h-10 ${pin.color} rounded-full border-4 border-white shadow-lg flex items-center justify-center cursor-pointer hover:scale-125 transition-transform`}>
                                     <Package className="w-4 h-4 text-white" />
                                 </div>
-                                <div className="absolute bottom-12 left-1/2 -translate-x-1/2 glass rounded-2xl px-4 py-3 shadow-xl min-w-[160px] opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity z-10">
+                                <div className="absolute bottom-12 left-1/2 -translate-x-1/2 glass rounded-2xl px-4 py-3 shadow-xl min-w-40 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity z-10">
                                     <p className="font-extrabold text-neutral-900 text-sm">{pin.type}</p>
                                     <p className="text-xs text-neutral-500 font-medium mt-0.5">{pin.location}</p>
                                     <p className="text-xs text-emerald-600 font-bold mt-1 flex items-center gap-1"><Clock className="w-3 h-3" />{pin.time}</p>

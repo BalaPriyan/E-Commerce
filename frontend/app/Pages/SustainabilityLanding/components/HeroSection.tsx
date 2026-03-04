@@ -13,9 +13,9 @@ export function HeroSection() {
         <section className="relative overflow-hidden pt-32 pb-20 px-4 sm:px-6 lg:px-8">
 
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none -z-10 overflow-hidden">
-                <div className="absolute top-20 -left-20 w-[480px] h-[480px] rounded-full bg-emerald-200/50 blur-[100px] animate-float-slow" />
-                <div className="absolute bottom-10 right-0 w-[400px] h-[400px] rounded-full bg-yellow-200/40 blur-[100px] animate-float-medium" style={{ animationDelay: "2s" }} />
-                <div className="absolute top-1/3 left-1/3 w-[256px] h-[256px] rounded-full bg-blue-100/30 blur-[80px] animate-pulse-glow" />
+                <div className="absolute top-20 -left-20 w-120 h-120 rounded-full bg-emerald-200/50 blur-[100px] animate-float-slow" />
+                <div className="absolute bottom-10 right-0 w-100 h-100 rounded-full bg-yellow-200/40 blur-[100px] animate-float-medium" style={{ animationDelay: "2s" }} />
+                <div className="absolute top-1/3 left-1/3 w-[256px] h-64 rounded-full bg-blue-100/30 blur-[80px] animate-pulse-glow" />
             </div>
 
             <div className="max-w-7xl mx-auto">
@@ -72,7 +72,7 @@ export function HeroSection() {
 
                     <div className="flex-1 w-full grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-6 mt-12 lg:mt-0">
 
-                        <div className="relative aspect-[3/4] sm:aspect-auto sm:h-80 rounded-[2rem] overflow-hidden bg-yellow-400 group glow-yellow">
+                        <div className="relative aspect-3/4 sm:aspect-auto sm:h-80 rounded-[2rem] overflow-hidden bg-yellow-400 group glow-yellow">
                             <Image src="/images/donation_3.png" alt="Fruit" fill className="object-cover opacity-90 mix-blend-multiply group-hover:scale-110 transition duration-700 ease-out" />
                             <div className="absolute top-4 left-4 w-8 h-8 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center">
                                 <div className="w-2 h-2 rounded-full border border-neutral-900" />
@@ -83,7 +83,7 @@ export function HeroSection() {
                             </div>
                         </div>
 
-                        <div className="relative aspect-[3/4] sm:aspect-auto sm:h-80 rounded-[2rem] overflow-hidden bg-orange-400 group sm:-mt-8">
+                        <div className="relative aspect-3/4 sm:aspect-auto sm:h-80 rounded-[2rem] overflow-hidden bg-orange-400 group sm:-mt-8">
                             <Image src="/images/donation_2.png" alt="Bakery" fill className="object-cover opacity-90 mix-blend-multiply group-hover:scale-110 transition duration-700 ease-out" />
                             <div className="absolute top-4 left-4 w-8 h-8 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center text-neutral-900">
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
@@ -94,7 +94,7 @@ export function HeroSection() {
                             </div>
                         </div>
 
-                        <div className="relative aspect-[3/4] sm:aspect-auto sm:h-80 rounded-[2rem] overflow-hidden bg-emerald-400 group sm:mt-8 glow-emerald">
+                        <div className="relative aspect-3/4 sm:aspect-auto sm:h-80 rounded-[2rem] overflow-hidden bg-emerald-400 group sm:mt-8 glow-emerald">
                             <Image src="/images/donation_1.png" alt="Vegetables" fill className="object-cover opacity-90 mix-blend-multiply group-hover:scale-110 transition duration-700 ease-out" />
                             <div className="absolute top-4 left-4 w-8 h-8 bg-white/50 backdrop-blur-sm rounded-full flex items-center justify-center">
                                 <div className="w-3 h-3 border-2 border-neutral-900 rounded-sm" />
